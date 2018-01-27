@@ -1,0 +1,132 @@
+body
+{ 
+ background-image: url("background.png"); 
+ padding: 0;
+ margin: 0;
+}
+
+section 
+{
+ background-color: white;
+ height: 400px;
+ width: 500px;
+ float: left;
+ margin-left: 100px;
+ border-color: #cccccc;
+ border-width:1px;  
+ border-style:solid;
+
+}
+
+
+aside
+{
+
+ background-color: white;
+ height: 200px;
+ width: 250px;
+ float: right;
+ border-color: #cccccc;
+ border-width:1px;  
+ border-style:solid;
+ margin-right: 300px;
+
+}
+
+
+  header
+ {
+  color:white;
+  background: #4aaaa5;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: #cccccc 6px solid;
+  border-bottom: #cccccc 6px solid;
+
+ }
+
+header h1
+{
+  margin-left: 100px;
+  display: inline;
+  width: 60%;  
+}
+
+ h2
+{
+  
+  margin-left: 10px
+    
+}
+ h3
+{
+  
+  margin-left: 10px
+    
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+   }
+
+
+  header a
+  {
+     color:white;
+     text-decoration: none;
+     font-size: 16px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+  }
+
+  header ul
+  {
+    margin:0;
+    padding-top: 0;
+    
+  }
+
+  header li
+  {
+    float: left;
+    display:inline;
+    padding: 0 10px 0 10px; 
+  }
+
+    header nav 
+    {
+
+    float: right;
+   
+   }
+
+   img
+   { 
+
+    float: left;
+    padding-right: 10px;
+    }
+
+ 
+   #F1 
+  {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;  
+   border-top: 5px #4aaaa5;
+   text-align: center;
+   background-color: #666666;
+   padding: 25px 25px 25px 25px;
+   border-top: #4aaaa5 6px solid;
+  }
+
+  div #branding
+  {
+    width:60%;
+
+  }
