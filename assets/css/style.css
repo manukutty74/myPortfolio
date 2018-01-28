@@ -1,8 +1,10 @@
 body
-{ 
- background-image: url("background.png"); 
+{
+ background-image: url("../images/background.png"); 
  padding: 0;
- margin: 0;
+ margin-left: : 50px;
+ margin-right: 50px;
+ overflow: hidden;
 }
 
 section 
@@ -18,7 +20,6 @@ section
 
 }
 
-
 aside
 {
 
@@ -33,28 +34,32 @@ aside
 
 }
 
-
-  header
+header
  {
-  color:white;
-  background: #4aaaa5;
+  background-color: white;
+  color:#4aaaa5;
   text-align: left;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-top: #cccccc 6px solid;
+  padding-top: 50px;
+  padding-bottom: 25px;
+
   border-bottom: #cccccc 6px solid;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+
 
  }
 
 header h1
 {
-  margin-left: 100px;
+  margin-left: 75px;
   display: inline;
-  width: 60%;  
+  width: 50%;  
+
 }
 
- h2
-{
+h2
+ {
   
   margin-left: 10px
     
@@ -73,10 +78,9 @@ hr {
     border-top: 1px solid #cccccc;
    }
 
-
   header a
   {
-     color:white;
+     color:#cccccc;
      text-decoration: none;
      font-size: 16px;
      padding-top: 20px;
@@ -101,7 +105,8 @@ hr {
     {
 
     float: right;
-   
+    display: inline-block;
+    margin-right: 250px;  
    }
 
    img
@@ -115,18 +120,40 @@ hr {
    #F1 
   {
    position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;  
+   top :640px;
+   height:40px;  
    border-top: 5px #4aaaa5;
    text-align: center;
    background-color: #666666;
-   padding: 25px 25px 25px 25px;
+   padding: 20px 25px 20px 25px;
    border-top: #4aaaa5 6px solid;
+   margin-left: 50px;
+   margin-right: 50px;
+   width:87%;
   }
 
   div #branding
-  {
-    width:60%;
+  { 
+    display: inline;
+   }
 
+ aside ul
+  {
+    margin:0;
+    padding-top: 0;
+    
   }
+
+  aside li
+  {
+    float: left;
+    display:inline;
+    padding: 0 3px 0 3px; 
+  }
+
+ form
+ {
+ 
+ margin-left: 20px;
+ 
+ }
