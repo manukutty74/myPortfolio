@@ -76,6 +76,8 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #cccccc;
+    margin-left :20px;
+    margin-right:20px;
    }
 
   header a
@@ -129,7 +131,7 @@ hr {
    border-top: #4aaaa5 6px solid;
    margin-left: 50px;
    margin-right: 50px;
-   width:87%;
+   width:1330px;
   }
 
   div #branding
@@ -157,3 +159,22 @@ hr {
  margin-left: 20px;
  
  }
+
+#top, #bottom, #left, #right
+ {
+  background: teal;
+  position: fixed;
+}
+  #left, #right {
+    top: 20px; bottom: 30px;
+    width: 1px;
+    }
+    #left { left: 55px; }
+    #right { right: 95px; }
+  
+  #top, #bottom {
+    left: 55px; right: 95px;
+    height: 1px;
+    }
+    #top { top: 20px; }
+    #bottom { bottom: 30px; }
