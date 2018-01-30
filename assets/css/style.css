@@ -25,7 +25,7 @@ aside
 
  background-color: white;
  height: 200px;
- width: 250px;
+ width: 270px;
  float: right;
  border-color: #cccccc;
  border-width:1px;  
@@ -178,3 +178,5 @@ hr {
     }
     #top { top: 20px; }
     #bottom { bottom: 30px; }
+
+   
